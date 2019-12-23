@@ -8,6 +8,7 @@ import 'package:whatsapp_clone/ui/status_screen.dart';
 void main() {
   runApp(
       new MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: new WhatsAppUiClone(),
         title: 'WhatsApp',
         theme: new ThemeData(
@@ -30,7 +31,9 @@ class _WhatsAppUiClone extends State<WhatsAppUiClone>  with SingleTickerProvider
     _tabcontroller = new TabController(
       vsync: this,
       length: 4,
+      initialIndex: 1
     );
+
   }
 
   @override

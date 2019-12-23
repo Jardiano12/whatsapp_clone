@@ -26,14 +26,14 @@ class _ChatScreenState extends State<ChatScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 new Text(
-                  dummyData[i].name,
+                  dummyData[i].nome,
                   style:  new TextStyle(fontWeight: FontWeight.bold,),
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     new Text(
-                      dummyData[i].time,
+                      dummyData[i].tempo,
                       style:  new TextStyle(color: Colors.grey, fontSize: 14.0, fontWeight: FontWeight.bold,),
                     ),
 //                    SizedBox(height: 10.0,),
@@ -52,7 +52,7 @@ class _ChatScreenState extends State<ChatScreen> {
             subtitle: new Container(
               padding: const EdgeInsets.only(top: 5.0),
               child:new Text(
-                dummyData[i].message,
+                dummyData[i].messagem,
                 style:  new TextStyle(fontWeight: FontWeight.normal, fontSize: 15.0,),
               ),
             ),
