@@ -71,7 +71,7 @@ class _WhatsAppUiClone extends State<WhatsAppUiClone>  with SingleTickerProvider
         controller: _tabcontroller,
         children: <Widget>[
           new CameraScreen(),
-          new ChatScreen(),
+         new ChatScreen(),
           new StatusScreen(),
           new ChamadasScreen()
 
